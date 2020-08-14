@@ -356,6 +356,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             elseif Right == "0x357887" then
                                 tblua:PressKey(0x1B)
                                 tblua:Sleep(xss)
@@ -374,6 +375,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             elseif Bottom == "0x357887" then
                                 tblua:PressKey(0x1B)
                                 tblua:Sleep(xss)
@@ -392,6 +394,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             elseif Left == "0x357887" then
                                 tblua:PressKey(0x1B)
                                 tblua:Sleep(xss)
@@ -410,6 +413,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             end
                         end
                     end
@@ -435,6 +439,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     elseif Right == "0x357887" then
                         tblua:PressKey(0x1B)
                         tblua:Sleep(xss)
@@ -453,6 +458,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     elseif Bottom == "0x357887" then
                         tblua:PressKey(0x1B)
                         tblua:Sleep(xss)
@@ -471,6 +477,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     elseif Left == "0x357887" then
                         tblua:PressKey(0x1B)
                         tblua:Sleep(xss)
@@ -489,6 +496,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     end
                     b = 0
                     second = 0
@@ -601,6 +609,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             elseif Right == "0x357887" then
                                 tblua:PressKey(0x1B)
                                 tblua:Sleep(xss)
@@ -619,6 +628,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             elseif Bottom == "0x357887" then
                                 tblua:PressKey(0x1B)
                                 tblua:Sleep(xss)
@@ -637,6 +647,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             elseif Left == "0x357887" then
                                 tblua:PressKey(0x1B)
                                 tblua:Sleep(xss)
@@ -655,6 +666,7 @@ if tblua:IsInWorld() == true then
                                 tblua:PressKey(0x46)
                                 tblua:Sleep(xss)
                                 tblua:TestMessage("Failed to make it the next patch of grass")
+                                tblua:PressKey(0x71)
                             end
                         end
                     end
@@ -680,6 +692,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     elseif Right == "0x357887" then
                         tblua:PressKey(0x1B)
                         tblua:Sleep(xss)
@@ -698,6 +711,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     elseif Bottom == "0x357887" then
                         tblua:PressKey(0x1B)
                         tblua:Sleep(xss)
@@ -716,6 +730,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     elseif Left == "0x357887" then
                         tblua:PressKey(0x1B)
                         tblua:Sleep(xss)
@@ -734,6 +749,7 @@ if tblua:IsInWorld() == true then
                         tblua:PressKey(0x46)
                         tblua:Sleep(xss)
                         tblua:TestMessage("Failed to make it the next patch of grass")
+                        tblua:PressKey(0x71)
                     end
                     c = 0
                     third = 0
@@ -838,6 +854,7 @@ if tblua:IsInWorld() == true then
                           tblua:PressKey(0x46)
                           tblua:Sleep(xss)
                           tblua:TestMessage("Failed to make it the next patch of grass")
+                          tblua:PressKey(0x71)
                         elseif Right == "0x357887" then
                           tblua:PressKey(0x1B)
                           tblua:Sleep(xss)
@@ -856,6 +873,7 @@ if tblua:IsInWorld() == true then
                           tblua:PressKey(0x46)
                           tblua:Sleep(xss)
                           tblua:TestMessage("Failed to make it the next patch of grass")
+                          tblua:PressKey(0x71)
                         elseif Bottom == "0x357887" then
                           tblua:PressKey(0x1B)
                           tblua:Sleep(xss)
@@ -874,6 +892,7 @@ if tblua:IsInWorld() == true then
                           tblua:PressKey(0x46)
                           tblua:Sleep(xss)
                           tblua:TestMessage("Failed to make it the next patch of grass")
+                          tblua:PressKey(0x71)
                         elseif Left == "0x357887" then
                           tblua:PressKey(0x1B)
                           tblua:Sleep(xss)
@@ -892,6 +911,7 @@ if tblua:IsInWorld() == true then
                           tblua:PressKey(0x46)
                           tblua:Sleep(xss)
                           tblua:TestMessage("Failed to make it the next patch of grass")
+                          tblua:PressKey(0x71)
                           end
                       end
                   end
@@ -917,6 +937,7 @@ if tblua:IsInWorld() == true then
                     tblua:PressKey(0x46)
                     tblua:Sleep(xss)
                     tblua:TestMessage("Failed to make it the next patch of grass")
+                    tblua:PressKey(0x71)
                   elseif Right == "0x357887" then
                     tblua:PressKey(0x1B)
                     tblua:Sleep(xss)
@@ -935,6 +956,7 @@ if tblua:IsInWorld() == true then
                     tblua:PressKey(0x46)
                     tblua:Sleep(xss)
                     tblua:TestMessage("Failed to make it the next patch of grass")
+                    tblua:PressKey(0x71)
                   elseif Bottom == "0x357887" then
                     tblua:PressKey(0x1B)
                     tblua:Sleep(xss)
@@ -953,6 +975,7 @@ if tblua:IsInWorld() == true then
                     tblua:PressKey(0x46)
                     tblua:Sleep(xss)
                     tblua:TestMessage("Failed to make it the next patch of grass")
+                    tblua:PressKey(0x71)
                   elseif Left == "0x357887" then
                     tblua:PressKey(0x1B)
                     tblua:Sleep(xss)
@@ -971,6 +994,7 @@ if tblua:IsInWorld() == true then
                     tblua:PressKey(0x46)
                     tblua:Sleep(xss)
                     tblua:TestMessage("Failed to make it the next patch of grass")
+                    tblua:PressKey(0x71)
                   end
                   d = 0
                   first = 2
