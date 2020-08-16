@@ -807,7 +807,7 @@ if tblua:IsInWorld() == true then
                 local mrs = math.random(375, 450)
                 local rs = math.random(500, 600)
                 local xmrs = math.random(650, 750)
-                local lrs = math.random(950, 1050)
+                local lrs = math.random(1000, 1050)
                 local xlrs = math.random(1950, 2050)
                 if d > enc then
                     tblua:StopMovement()
