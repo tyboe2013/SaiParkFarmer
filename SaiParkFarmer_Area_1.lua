@@ -20,7 +20,7 @@ mds = math.random(700, 900)
 --Step variable
 aone = 0
 --Random Encounter Counter
-enc = math.random(2,3)
+enc = math.random(30,60)
 function IsInGrass()
     local Top = tblua:GetPixelColor(1174, 96)
     local Right = tblua:GetPixelColor(1183, 102)
