@@ -20,7 +20,7 @@ mds = math.random(700, 900)
 --Step variable
 aone = 0
 --Random Encounter Counter
-enc = math.random(2,3)
+enc = math.random(50,100)
 
 
 MovementSwitch = 1
