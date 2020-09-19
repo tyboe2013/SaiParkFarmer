@@ -68,6 +68,7 @@ if tblua:IsInWorld() == true then
                         --if bot is in fight
                         --Luma check positive (message and notification)
                         tblua:StopMovement()
+                        tblua:KeyUp(0x53)
                         tblua:KeyUp(0x41)
                         if tblua:CheckLuma() == true then
                             tblua:SendTelegramMessage("Luma Found!")
@@ -278,6 +279,7 @@ if tblua:IsInWorld() == true then
                         while tblua:IsInFight() == true do
                             --if bot is in fight
                             --Luma check positive (message and notification)
+                            tblua:KeyUp(0x44)
                             tblua:KeyUp(0x57)
                             tblua:StopMovement()
                             if tblua:CheckLuma() == true then
@@ -375,6 +377,7 @@ if tblua:IsInWorld() == true then
                         --if bot is in fight
                         --Luma check positive (message and notification)
                         tblua:StopMovement()
+                        tblua:KeyUp(0x44)
                         tblua:KeyUp(0x53)
                         if tblua:CheckLuma() == true then
                             tblua:SendTelegramMessage("Luma Found!")
@@ -578,6 +581,7 @@ if tblua:IsInWorld() == true then
                         while tblua:IsInFight() == true do
                             --if bot is in fight
                             --Luma check positive (message and notification)
+                            tblua:KeyUp(0x41)
                             tblua:KeyUp(0x57)
                             tblua:StopMovement()
                             if tblua:CheckLuma() == true then
