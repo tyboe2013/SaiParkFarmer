@@ -10,7 +10,7 @@ second = 0
 --PATCH 3: CHANGE TO 2 TO START AT PATCH ONE CHANGE TO 0 IF NOT USING IT
 third = 0
 --DO NOT TOUCH
---fourth = 0
+fourth = 0
 --HOW MANY ENCOUNTERS YOU WANT BEFORE IT CHANGES TO A NEW PATCH OF GRASS
 enc = math.random(50,100)
 --Counter variable for encounter
