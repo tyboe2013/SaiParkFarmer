@@ -9,6 +9,8 @@ first = 2
 second = 0
 --PATCH 3: CHANGE TO 2 TO START AT PATCH ONE CHANGE TO 0 IF NOT USING IT
 third = 0
+--HOW MANY ENCOUNTERS YOU WANT BEFORE IT CHANGES TO A NEW PATCH OF GRASS
+enc = math.random(50,100)
 --DO NOT TOUCH
 fourth = 0
 --Counter variable for encounter
@@ -19,8 +21,6 @@ xss = math.random(200, 300)
 mds = math.random(700, 900)
 --Step variable
 aone = 0
---Random Encounter Counter
-enc = math.random(50,100)
 
 MovementSwitch = 1
 
