@@ -10,9 +10,9 @@ second = 0
 --HOW MANY ENCOUNTERS YOU WANT BEFORE IT CHANGES TO A NEW PATCH OF GRASS
 enc = math.random(50,100)
 --DO NOT TOUCH
---third = 0
+third = 0
 --DO NOT TOUCH
---fourth = 0
+fourth = 0
 --Counter variable for encounter
 a = 0
 --extra small sleep
