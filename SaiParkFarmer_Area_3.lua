@@ -45,7 +45,6 @@ if tblua:IsInWorld() == true then
                             repeat
                                 tblua:KeyDown(0x41)
                                 tblua:Sleep(100)
-                                tblua:KeyUp(0x41)
                                 aone = aone + 1
                             until aone > 14 or tblua:IsInWorld() == false
 
@@ -146,14 +145,12 @@ if tblua:IsInWorld() == true then
                                 repeat
                                     tblua:KeyDown(0x57)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x57)
                                     aone = aone + 1
                                 until aone > 10 or tblua:IsInWorld() == false
-
+                                tblua:KeyUp(0x57)
                                 repeat
                                     tblua:KeyDown(0x44)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x44)
                                     aone = aone + 1
                                 until aone > 25 or tblua:IsInWorld() == false
 
@@ -202,14 +199,12 @@ if tblua:IsInWorld() == true then
                                 repeat
                                     tblua:KeyDown(0x57)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x57)
                                     aone = aone + 1
                                 until aone > 10 or tblua:IsInWorld() == false
-
+                                tblua:KeyUp(0x57)
                                 repeat
                                     tblua:KeyDown(0x44)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x44)
                                     aone = aone + 1
                                 until aone > 30 or tblua:IsInWorld() == false
 
@@ -303,11 +298,11 @@ if tblua:IsInWorld() == true then
                             repeat
                                 tblua:KeyDown(0x44)
                                 tblua:Sleep(100)
-                                tblua:KeyUp(0x44)
                                 aone = aone + 1
                             until aone > 20 or tblua:IsInWorld() == false
 
                             if aone > 20 then
+                                tblua:KeyUp(0x44)
                                 tblua:KeyDown(0x53)
                                 tblua:Sleep(1000)
                                 tblua:PressKey(0x53)
@@ -398,14 +393,12 @@ if tblua:IsInWorld() == true then
                                 repeat
                                     tblua:KeyDown(0x57)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x57)
                                     aone = aone + 1
                                 until aone > 10 or tblua:IsInWorld() == false
-
+                                tblua:KeyUp(0x57)
                                 repeat
                                     tblua:KeyDown(0x44)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x44)
                                     aone = aone + 1
                                 until aone > 25 or tblua:IsInWorld() == false
 
@@ -454,14 +447,12 @@ if tblua:IsInWorld() == true then
                                 repeat
                                     tblua:KeyDown(0x57)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x57)
                                     aone = aone + 1
                                 until aone > 25 or tblua:IsInWorld() == false
-
+                                tblua:KeyUp(0x57)
                                 repeat
                                     tblua:KeyDown(0x41)
                                     tblua:Sleep(100)
-                                    tblua:KeyUp(0x41)
                                     aone = aone + 1
                                 until aone > 25 or tblua:IsInWorld() == false
 
@@ -516,7 +507,6 @@ if tblua:IsInWorld() == true then
                         tblua:CircleArea()
                     end
                 until tblua:IsInWorld() == false
-            end
             --loop if minimap not detected
             while tblua:IsInWorld() == false do
                 tblua:StopMovement()
