@@ -67,28 +67,29 @@ if tblua:IsInWorld() == true then
                             end
                         end
                     end
-
-                    while tblua:IsInFight() == true do
-                        --if bot is in fight
-                        --Luma check positive (message and notification)
-                        tblua:StopMovement()
-                        tblua:KeyUp(0x41)
-                        tblua:KeyUp(0x53)
-                        if tblua:CheckLuma() == true then
-                            tblua:SendTelegramMessage("Luma Found!")
-                            tblua:TestMessage("Luma Found!")
-                            tblua:PressKey(0x71)
+                    while tblua:IsInWorld() == false do
+                        while tblua:IsInFight() == true do
+                            --if bot is in fight
+                            --Luma check positive (message and notification)
                             tblua:StopMovement()
-                        else
-                            --Else no Luma, so run away
-                            while tblua:IsInWorld() == false do
-                                if tblua:IsInFight() == true then
-                                    tblua:StopMovement()
-                                    tblua:Sleep(xss)
-                                    tblua:PressKey(0x38)
-                                    tblua:Sleep(xss)
-                                    tblua:PressKey(0x38)
-                                    a = a + 1
+                            tblua:KeyUp(0x41)
+                            tblua:KeyUp(0x53)
+                            if tblua:CheckLuma() == true then
+                                tblua:SendTelegramMessage("Luma Found!")
+                                tblua:TestMessage("Luma Found!")
+                                tblua:PressKey(0x71)
+                                tblua:StopMovement()
+                            else
+                                --Else no Luma, so run away
+                                while tblua:IsInWorld() == false do
+                                    if tblua:IsInFight() == true then
+                                        tblua:StopMovement()
+                                        tblua:Sleep(xss)
+                                        tblua:PressKey(0x38)
+                                        tblua:Sleep(xss)
+                                        tblua:PressKey(0x38)
+                                        a = a + 1
+                                    end
                                 end
                             end
                         end
@@ -163,6 +164,8 @@ if tblua:IsInWorld() == true then
 
             --loop if minimap not detected
             while tblua:IsInWorld() == false do
+                tblua:KeyUp(0x41)
+                tblua:KeyUp(0x53)
                 tblua:StopMovement()
                 --if bot is in fight
                 if tblua:IsInFight() == true then
@@ -308,6 +311,8 @@ if tblua:IsInWorld() == true then
 
             --loop if minimap not detected
             while tblua:IsInWorld() == false do
+                tblua:KeyUp(0x44)
+                tblua:KeyUp(0x57)
                 tblua:StopMovement()
                 --if bot is in fight
                 if tblua:IsInFight() == true then
@@ -451,6 +456,7 @@ if tblua:IsInWorld() == true then
             --loop if minimap not detected
             while tblua:IsInWorld() == false do
                 tblua:StopMovement()
+                tblua:KeyUp(0x53)
                 --if bot is in fight
                 if tblua:IsInFight() == true then
                     --Luma check positive (message and notification)
@@ -505,7 +511,8 @@ if tblua:IsInWorld() == true then
                             --if bot is in fight
                             --Luma check positive (message and notification)
                             tblua:StopMovement()
-                            tblua:PressKey(0x44)
+                            tblua:KeyUp(0x44)
+                            tblua:KeyUp(0x57)
                             if tblua:CheckLuma() == true then
                                 tblua:SendTelegramMessage("Luma Found!")
                                 tblua:TestMessage("Luma Found!")
@@ -593,6 +600,8 @@ if tblua:IsInWorld() == true then
             end
             --loop if minimap not detected
             while tblua:IsInWorld() == false do
+                tblua:KeyUp(0x44)
+                tblua:KeyUp(0x53)
                 tblua:StopMovement()
                 --if bot is in fight
                 if tblua:IsInFight() == true then
