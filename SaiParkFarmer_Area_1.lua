@@ -11,8 +11,6 @@ second = 0
 third = 0
 --DO NOT TOUCH
 fourth = 0
---HOW MANY ENCOUNTERS YOU WANT BEFORE IT CHANGES TO A NEW PATCH OF GRASS
-enc = math.random(50,100)
 --Counter variable for encounter
 a = 0
 --extra small sleep
@@ -21,8 +19,8 @@ xss = math.random(200, 300)
 mds = math.random(700, 900)
 --Step variable
 aone = 0
-
-MovementSwitch = 1
+--Random Encounter Counter
+enc = math.random(30,60)
 
 tblua:Sleep(1500)
 
@@ -154,16 +152,13 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
 
@@ -304,16 +299,13 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
 
@@ -451,16 +443,13 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
 
@@ -597,10 +586,12 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
-                local MovementSwitch = math.random(2)
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
                     tblua:RandomArea()
                 elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
                     tblua:CircleArea()
                 end
             end
