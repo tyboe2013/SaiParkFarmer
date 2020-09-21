@@ -90,56 +90,6 @@ if tblua:IsInWorld() == true then
                     end
                     goto ftopo
                     ::endfo::
-                    --[[else
-                        ::ftopt::
-                        while tblua:IsInWorld() == true do
-                            if aone > 0 then
-                                tblua:StopMovement()
-                                repeat
-                                    tblua:KeyDown(0x41)
-                                    tblua:Sleep(100)
-                                    tblua:KeyUp(0x41)
-                                    aone = aone + 1
-                                until aone > 15 or tblua:IsInWorld() == false
-
-                                if aone > 15 then
-                                    tblua:KeyUp(0x41)
-                                    aone = 0
-                                    first = 0
-                                    a = 0
-                                    second = 2
-                                    goto endft
-                                end
-                            end
-                        end
-
-                        while tblua:IsInFight() == true do
-                            --if bot is in fight
-                            --Luma check positive (message and notification)
-                            tblua:KeyUp(0x41)
-                            tblua:StopMovement()
-                            if tblua:CheckLuma() == true then
-                                tblua:SendTelegramMessage("Luma Found!")
-                                tblua:TestMessage("Luma Found!")
-                                tblua:PressKey(0x71)
-                                tblua:StopMovement()
-                            else
-                                --Else no Luma, so run away
-                                while tblua:IsInWorld() == false do
-                                    if tblua:IsInFight() == true then
-                                        tblua:StopMovement()
-                                        tblua:Sleep(xss)
-                                        tblua:PressKey(0x38)
-                                        tblua:Sleep(xss)
-                                        tblua:PressKey(0x38)
-                                        a = a + 1
-                                    end
-                                end
-                            end
-                        end
-                        goto ftopt
-                        ::endft::
-                    end--]]
                 end
                 --full random movement
                 repeat
@@ -397,54 +347,6 @@ if tblua:IsInWorld() == true then
                     end
                     goto ttopo
                     ::endto::
-                    --[[else
-                        ::ttopt::
-                        while tblua:IsInWorld() == true do
-                            if aone > 0 then
-                                repeat
-                                    tblua:KeyDown(0x53)
-                                    tblua:Sleep(100)
-                                    tblua:KeyUp(0x53)
-                                    aone = aone + 1
-                                until aone > 20 or tblua:IsInWorld() == false
-
-                                if aone > 20 then
-                                    aone = 0
-                                    third = 0
-                                    a = 0
-                                    fourth = 2
-                                    goto endtt
-                                end
-                            end
-                        end
-
-                        while tblua:IsInFight() == true do
-                            --if bot is in fight
-                            --Luma check positive (message and notification)
-                            tblua:KeyUp(0x53)
-                            tblua:StopMovement()
-                            if tblua:CheckLuma() == true then
-                                tblua:SendTelegramMessage("Luma Found!")
-                                tblua:TestMessage("Luma Found!")
-                                tblua:PressKey(0x71)
-                                tblua:StopMovement()
-                            else
-                                --Else no Luma, so run away
-                                while tblua:IsInWorld() == false do
-                                    if tblua:IsInFight() == true then
-                                        tblua:StopMovement()
-                                        tblua:Sleep(xss)
-                                        tblua:PressKey(0x38)
-                                        tblua:Sleep(xss)
-                                        tblua:PressKey(0x38)
-                                        a = a + 1
-                                    end
-                                end
-                            end
-                        end
-                        goto ttopt
-                        ::endtt::
-                    end--]]
                 end
                 --full random movement
                 repeat
