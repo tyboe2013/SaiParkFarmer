@@ -154,14 +154,16 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
-                local MovementSwitch = math.random(1,3)
-                if MovementSwitch == 1 then
-                    tblua:RandomArea()
-                elseif MovementSwitch == 2 then
-                    tblua:CircleArea()
-                elseif MovementSwitch == 3 then
-                    tblua:CircleArea()
-                end
+                repeat
+                    local MovementSwitch = math.random(1,3)
+                    if MovementSwitch == 1 then
+                        tblua:RandomArea()
+                    elseif MovementSwitch == 2 then
+                        tblua:CircleArea()
+                    elseif MovementSwitch == 3 then
+                        tblua:CircleArea()
+                    end
+                until tblua:IsInWorld() == false
             end
 
             --loop if minimap not detected
@@ -303,14 +305,16 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
-                local MovementSwitch = math.random(1,3)
-                if MovementSwitch == 1 then
-                    tblua:RandomArea()
-                elseif MovementSwitch == 2 then
-                    tblua:CircleArea()
-                elseif MovementSwitch == 3 then
-                    tblua:CircleArea()
-                end
+                repeat
+                    local MovementSwitch = math.random(1,3)
+                    if MovementSwitch == 1 then
+                        tblua:RandomArea()
+                    elseif MovementSwitch == 2 then
+                        tblua:CircleArea()
+                    elseif MovementSwitch == 3 then
+                        tblua:CircleArea()
+                    end
+                until tblua:IsInWorld() == false
             end
 
             --loop if minimap not detected
@@ -448,14 +452,16 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
-                local MovementSwitch = math.random(1,3)
-                if MovementSwitch == 1 then
-                    tblua:RandomArea()
-                elseif MovementSwitch == 2 then
-                    tblua:CircleArea()
-                elseif MovementSwitch == 3 then
-                    tblua:CircleArea()
-                end
+                repeat
+                    local MovementSwitch = math.random(1,3)
+                    if MovementSwitch == 1 then
+                        tblua:RandomArea()
+                    elseif MovementSwitch == 2 then
+                        tblua:CircleArea()
+                    elseif MovementSwitch == 3 then
+                        tblua:CircleArea()
+                    end
+                until tblua:IsInWorld() == false
             end
 
             --loop if minimap not detected
@@ -593,14 +599,16 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
-                local MovementSwitch = math.random(1,3)
-                if MovementSwitch == 1 then
-                    tblua:RandomArea()
-                elseif MovementSwitch == 2 then
-                    tblua:CircleArea()
-                elseif MovementSwitch == 3 then
-                    tblua:CircleArea()
-                end
+                repeat
+                    local MovementSwitch = math.random(1,3)
+                    if MovementSwitch == 1 then
+                        tblua:RandomArea()
+                    elseif MovementSwitch == 2 then
+                        tblua:CircleArea()
+                    elseif MovementSwitch == 3 then
+                        tblua:CircleArea()
+                    end
+                until tblua:IsInWorld() == false
             end
             --loop if minimap not detected
             while tblua:IsInWorld() == false do
