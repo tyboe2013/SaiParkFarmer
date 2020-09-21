@@ -22,8 +22,6 @@ mds = math.random(700, 900)
 --Step variable
 aone = 0
 
-MovementSwitch = 1
-
 tblua:Sleep(1500)
 
 if tblua:IsInWorld() == true then
@@ -143,16 +141,13 @@ if tblua:IsInWorld() == true then
                     end--]]
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
 
@@ -306,16 +301,13 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
 
@@ -450,16 +442,13 @@ if tblua:IsInWorld() == true then
                     end--]]
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
 
@@ -608,16 +597,13 @@ if tblua:IsInWorld() == true then
                     end
                 end
                 --full random movement
+                local MovementSwitch = math.random(1,3)
                 if MovementSwitch == 1 then
-                    tblua:CircleArea()
-                    local xd = math.random(100, 300)
-                    tblua:Sleep(xd)
-                    local MovementSwitch = 2
-                elseif MovementSwitch == 2 then
                     tblua:RandomArea()
-                    local xdd = math.random(600, 1200)
-                    tblua:Sleep(xdd)
-                    local MovementSwitch = 1
+                elseif MovementSwitch == 2 then
+                    tblua:CircleArea()
+                elseif MovementSwitch == 3 then
+                    tblua:CircleArea()
                 end
             end
             --loop if minimap not detected
